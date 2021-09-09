@@ -11,8 +11,8 @@ I am 32, from South Kazakhstan - Shymkent, not married. I am engaged in railway 
 //Credit Card Mask
 
 function maskify(cc) {
-                return cc.length <= 4 ? cc : '#'.repeat(cc.length - 4) + cc.substring(cc.length - 4).toString();
-              }
+  return cc.length <= 4 ? cc : '#'.repeat(cc.length - 4) + cc.substring(cc.length - 4).toString();
+}
 ```
 
 Education: bachelor of telecommunications

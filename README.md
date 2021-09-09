@@ -1,1 +1,1 @@
-https://KanatJuzbayev.github.io/rsschool-cv/cv
+https://KanatJuzbayev.github.io/rsschool-cv/

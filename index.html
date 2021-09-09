@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <title>Kanat Juzbayev CV</title>
+</head>
+  <body>
+    <header>
+      <div class="wrapper header__wrapper">
+        <h1>Curriculum Vitae</h1>
+      </div>
+    </header>
+
+    <main class="wrapper content__wrapper">
+      <img class="avatar" src="img/me.jpg" alt="My img, I'm cute ;)"/>
+      <h2 class="outer">Kanat Juzbayev</h2>
+      <section>
+        <h3>About Me:</h3>
+        <p>I am 32, from South Kazakhstan - Shymkent, not married. I am engaged in railway transportation. I have been studying programming for the last year. This is a very interesting area for me. Finished a couple of courses in front-end and backend. Now I'm studying in RSS</p>
+        <ul class="list">
+          <li>Code sample:
+            <pre><code class="html">
+              //Credit Card Mask
+
+              function maskify(cc) {
+                return cc.length <= 4 ? cc : '#'.repeat(cc.length - 4) + cc.substring(cc.length - 4).toString();
+              }
+            </code></pre>
+          </li>
+          <li>Education: bachelor of telecommunications</li>
+          <li>English: Pre-intermediate</li>
+          <li>Hobby: Marathon Run</li>
+        </ul>
+        <article class="contacts">
+          <h3>Contacts:</h3>
+          <ul class="list">
+            <li>Tel: <a href="tel:+77079009392"> +77079009392</a></li>
+            <li>Email: <a href="mailto:kanat.juzbayev@gmail.com?subject=feedback">kanat.juzbayev@gmail.com</a></li>
+          </ul>
+        </article>
+        <h3>The address:</h3>
+        <p>Kazakhstan, Almaty, First of builders street, 5/2</p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrapper footer_wrapper">
+        <a class="link" href="https://github.com/KanatJuzbayev">
+          <img class="ico-github" src="img/ico-github.svg" alt="GitHub">
+          Kanat Juzbayev
+        </a>
+        <p>Copyright © 2021</p>
+        <a class="link" href="https://rs.school/js/">
+          <img class="rs-school-js" src="img/rs-school-js.svg" alt="rs-school-js">
+        </a>
+      </div>
+
+    </footer>
+  </body>
+</html>

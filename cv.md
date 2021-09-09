@@ -1,6 +1,6 @@
 # Curriculum Vitae
 
-
+![Not suport img](./me.jpg)
 
 ## Kanat Juzbayev
 
